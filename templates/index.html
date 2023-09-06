@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<script src="/static/packages/NoSleep.min.js"></script>
+
+<head>
+    <title>Tram Time</title>
+    <style>
+        @font-face {
+            font-family: 'DM Sans';
+            src: url('/fonts/DMSans-VariableFont_opsz,wght.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /* General styling */
+        body,
+        #text,
+        table {
+            font-family: 'DM Sans', sans-serif;
+            background-color: #1c1c1c;
+            color: #ffffff;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        table {
+            width: 95%;
+            margin: auto;
+            font-size: 25px;
+            text-align: center;
+            border-collapse: collapse;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        td,
+        th {
+            padding: 15px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        tr:last-child td,
+        tr:last-child th {
+            border-bottom: none;
+        }
+
+        tr:nth-child(2) td,
+        tr:nth-child(2) th {
+            line-height: 1;
+        }
+
+        tr:last-child td,
+        tr:last-child th {
+            vertical-align: top;
+            font-weight: 100;
+            line-height: 1.3;
+        }
+
+        tr th:first-child,
+        tr td:first-child {
+            font-weight: 400;
+        }
+
+        td small,
+        th small {
+            font-size: 12px;
+        }
+
+        th {
+            background-color: #282828;
+        }
+
+        .icon {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            position: relative;
+            bottom: 3px;
+        }
+
+        .icon-placeholder {
+            width: 20px;
+            /* Should match .icon width */
+            height: 20px;
+            /* Should match .icon height */
+            display: inline-block;
+        }
+
+        .wheelchair-icon {
+            filter: invert(1);
+        }
+
+        #stayAwake {
+            font-size: 20px;
+            color: white;
+            background: #007bff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #svgContainer {
+            width: 100%;
+            max-width: 800px;
+            /* or whatever maximum size you want */
+            margin: 2rem auto;
+            overflow: hidden;
+        }
+
+        #svgContainer text {
+            fill: white;
+        }
+
+        #svgContainer path,
+        #svgContainer circle {
+            stroke: white;
+        }
+
+        #svgContainer circle:not(.liveTram) {
+            fill: white;
+        }
+
+        .liveTram {
+            transition: all 5s ease;
+            /* smooth animation */
+        }
+
+        /* For landscape mode */
+        @media screen and (orientation:landscape) {
+            table {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="svgContainer">
+            <!-- SVG route will be loaded here -->
+            <!-- Live tram positions will be displayed as circles on this SVG -->
+        </div>
+        <table id="tramTable">
+            <!-- Table content will be populated here -->
+        </table>
+    </div>
+
+    <button id="stayAwake">Stay Awake</button>
+
+    <script>
+        let activeTrams = {};  // A map to store currently active trams
+
+        fetch('/static/paths/route.svg')
+            .then(response => response.text())
+            .then(svg => {
+                document.getElementById("svgContainer").innerHTML = svg;
+                fetchData();
+                setInterval(fetchData, 5000);
+            });
+
+
+        function fetchData() {
+            fetch('/api/tram_time')
+                .then(response => response.json())
+                .then(data => {
+                    const tramTable = document.getElementById("tramTable");
+                    let headerHtml = "<tr><th>#</th>";
+                    let headsignHtml = "<tr><td>Destination</td>";
+                    let departuresHtml = "<tr><td>Mins</td>";
+                    let newTrams = {};  // To keep track of new trams received in this fetchData call
+
+                    for (const [tram, info] of Object.entries(data)) {
+                        headerHtml += `<th>${tram}</th>`;
+                        let extraInfo = "";
+                        if (tram === "15") {
+                            extraInfo = "<br><small>(for Rudolfinum)</small>";
+                        } else if (tram === "9") {
+                            extraInfo = "<br><small>(for train station)</small>";
+                        }
+                        headsignHtml += `<td>${info.headsign}${extraInfo}</td>`;
+                        let departureIcons = info.departures.map(departure => {
+                            let wheelchairIcon = departure.is_wheelchair_accessible ? '<img src="/static/icons/8679711_wheelchair_line_icon.svg" class="wheelchair-icon icon">' : '<span class="icon-placeholder"></span>';
+                            let airconIcon = departure.is_air_conditioned ? '<img src="/static/icons/7984996_weather_snow_snowflake_winter_freeze_icon.svg" class="aircon-icon icon">' : '<span class="icon-placeholder"></span>';
+
+                            return `${departure.time_diff} ${wheelchairIcon} ${airconIcon}`;
+                        });
+                        departuresHtml += `<td>${departureIcons.slice(0, 5).join("<br>")}</td>`;
+
+                        info.departures.slice(0, 5).forEach(departure => {
+                            if (departure.coordinates) {
+                                const key = departure.trip_id;
+                                let group;
+                                if (activeTrams[key]) {
+                                    group = activeTrams[key];
+                                    const circle = group.querySelector('circle');
+                                    const text = group.querySelector('text');
+
+                                    // Update the circle and text coordinates
+                                    circle.setAttribute('cx', departure.coordinates[0].toString());
+                                    circle.setAttribute('cy', departure.coordinates[1].toString());
+                                    text.setAttribute('x', departure.coordinates[0].toString());
+                                    text.setAttribute('y', (departure.coordinates[1] + 3).toString());
+
+                                } else {
+                                    const svgNS = "http://www.w3.org/2000/svg";
+
+                                    // Create a group element
+                                    group = document.createElementNS(svgNS, 'g');
+
+                                    // Create the circle
+                                    let circle = document.createElementNS(svgNS, 'circle');
+                                    circle.setAttribute('cx', departure.coordinates[0].toString());
+                                    circle.setAttribute('cy', departure.coordinates[1].toString());
+                                    circle.setAttribute('r', '10');
+                                    circle.setAttribute('fill', 'red');
+                                    circle.classList.add('liveTram');
+
+                                    // Create the text element
+                                    let text = document.createElementNS(svgNS, 'text');
+                                    text.setAttribute('x', departure.coordinates[0].toString());
+                                    text.setAttribute('y', (departure.coordinates[1] + 3).toString());
+                                    text.setAttribute('font-size', '8');
+                                    text.setAttribute('text-anchor', 'middle');
+                                    text.setAttribute('fill', 'white !important');
+                                    text.classList.add('liveTram');
+                                    text.textContent = tram;
+
+                                    // Append circle and text to the group
+                                    group.appendChild(circle);
+                                    group.appendChild(text);
+
+                                    // Append the group to the SVG
+                                    document.getElementById("svgContainer").querySelector("svg").appendChild(group);
+
+                                    activeTrams[key] = group;
+                                }
+
+                                newTrams[key] = true;
+                            }
+                        });
+                    }
+
+                    for (const key in activeTrams) {
+                        if (!newTrams[key]) {
+                            activeTrams[key].remove();
+                            delete activeTrams[key];
+                        }
+                    }
+
+                    headerHtml += "</tr>";
+                    headsignHtml += "</tr>";
+                    departuresHtml += "</tr>";
+
+                    tramTable.innerHTML = headerHtml + headsignHtml + departuresHtml;
+                });
+        }
+
+        document.getElementById('stayAwake').addEventListener('click', function () {
+            var noSleep = new NoSleep();
+            noSleep.enable();
+            document.getElementById('stayAwake').style.display = 'none'; // Optionally hide the button
+        });
+
+    </script>
+</body>
+
+</html>

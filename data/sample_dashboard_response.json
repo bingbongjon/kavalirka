@@ -1,0 +1,843 @@
+{
+    "stops": [
+        {
+            "location_type": 0,
+            "parent_station": null,
+            "platform_code": "A",
+            "stop_id": "U240Z1P",
+            "stop_lat": 50.070042,
+            "stop_lon": 14.37063,
+            "stop_name": "Kavalírka",
+            "wheelchair_boarding": 1,
+            "zone_id": "P",
+            "level_id": null,
+            "asw_id": {
+                "node": 240,
+                "stop": 1
+            }
+        }
+    ],
+    "departures": [
+        {
+            "arrival_timestamp": {
+                "predicted": "2023-09-05T15:22:40+02:00",
+                "scheduled": "2023-09-05T15:22:00+02:00"
+            },
+            "delay": {
+                "is_available": true,
+                "minutes": 0,
+                "seconds": 40
+            },
+            "departure_timestamp": {
+                "predicted": "2023-09-05T15:22:40+02:00",
+                "scheduled": "2023-09-05T15:22:00+02:00",
+                "minutes": "2"
+            },
+            "last_stop": {
+                "id": "U580Z1P",
+                "name": "Poštovka"
+            },
+            "route": {
+                "short_name": "4",
+                "type": 0,
+                "is_night": false,
+                "is_regional": false,
+                "is_substitute_transport": false
+            },
+            "stop": {
+                "id": "U240Z1P",
+                "platform_code": "A"
+            },
+            "trip": {
+                "direction": null,
+                "headsign": "Kubánské náměstí",
+                "id": "4_3944_230904",
+                "is_at_stop": false,
+                "is_canceled": false,
+                "is_wheelchair_accessible": true,
+                "is_air_conditioned": true,
+                "short_name": null
+            }
+        },
+        {
+            "arrival_timestamp": {
+                "predicted": "2023-09-05T15:22:54+02:00",
+                "scheduled": "2023-09-05T15:22:00+02:00"
+            },
+            "delay": {
+                "is_available": true,
+                "minutes": 0,
+                "seconds": 54
+            },
+            "departure_timestamp": {
+                "predicted": "2023-09-05T15:22:54+02:00",
+                "scheduled": "2023-09-05T15:22:00+02:00",
+                "minutes": "2"
+            },
+            "last_stop": {
+                "id": "U580Z1P",
+                "name": "Poštovka"
+            },
+            "route": {
+                "short_name": "9",
+                "type": 0,
+                "is_night": false,
+                "is_regional": false,
+                "is_substitute_transport": false
+            },
+            "stop": {
+                "id": "U240Z1P",
+                "platform_code": "A"
+            },
+            "trip": {
+                "direction": null,
+                "headsign": "Spojovací",
+                "id": "9_6895_230904",
+                "is_at_stop": false,
+                "is_canceled": false,
+                "is_wheelchair_accessible": false,
+                "is_air_conditioned": false,
+                "short_name": null
+            }
+        },
+        {
+            "arrival_timestamp": {
+                "predicted": "2023-09-05T15:25:00+02:00",
+                "scheduled": "2023-09-05T15:25:00+02:00"
+            },
+            "delay": {
+                "is_available": true,
+                "minutes": 0,
+                "seconds": 0
+            },
+            "departure_timestamp": {
+                "predicted": "2023-09-05T15:25:00+02:00",
+                "scheduled": "2023-09-05T15:25:00+02:00",
+                "minutes": "4"
+            },
+            "last_stop": {
+                "id": null,
+                "name": null
+            },
+            "route": {
+                "short_name": "15",
+                "type": 0,
+                "is_night": false,
+                "is_regional": false,
+                "is_substitute_transport": false
+            },
+            "stop": {
+                "id": "U240Z1P",
+                "platform_code": "A"
+            },
+            "trip": {
+                "direction": null,
+                "headsign": "Olšanské hřbitovy",
+                "id": "15_6205_230904",
+                "is_at_stop": false,
+                "is_canceled": false,
+                "is_wheelchair_accessible": true,
+                "is_air_conditioned": true,
+                "short_name": null
+            }
+        },
+        {
+            "arrival_timestamp": {
+                "predicted": "2023-09-05T15:25:18+02:00",
+                "scheduled": "2023-09-05T15:24:00+02:00"
+            },
+            "delay": {
+                "is_available": true,
+                "minutes": 1,
+                "seconds": 78
+            },
+            "departure_timestamp": {
+                "predicted": "2023-09-05T15:25:18+02:00",
+                "scheduled": "2023-09-05T15:24:00+02:00",
+                "minutes": "5"
+            },
+            "last_stop": {
+                "id": "U394Z1P",
+                "name": "Motol"
+            },
+            "route": {
+                "short_name": "10",
+                "type": 0,
+                "is_night": false,
+                "is_regional": false,
+                "is_substitute_transport": false
+            },
+            "stop": {
+                "id": "U240Z1P",
+                "platform_code": "A"
+            },
+            "trip": {
+                "direction": null,
+                "headsign": "Sídliště Ďáblice",
+                "id": "10_3609_230904",
+                "is_at_stop": false,
+                "is_canceled": false,
+                "is_wheelchair_accessible": true,
+                "is_air_conditioned": true,
+                "short_name": null
+            }
+        },
+        {
+            "arrival_timestamp": {
+                "predicted": "2023-09-05T15:26:03+02:00",
+                "scheduled": "2023-09-05T15:26:00+02:00"
+            },
+            "delay": {
+                "is_available": true,
+                "minutes": 0,
+                "seconds": 3
+            },
+            "departure_timestamp": {
+                "predicted": "2023-09-05T15:26:03+02:00",
+                "scheduled": "2023-09-05T15:26:00+02:00",
+                "minutes": "5"
+            },
+            "last_stop": {
+                "id": "U394Z1P",
+                "name": "Motol"
+            },
+            "route": {
+                "short_name": "9",
+                "type": 0,
+                "is_night": false,
+                "is_regional": false,
+                "is_substitute_transport": false
+            },
+            "stop": {
+                "id": "U240Z1P",
+                "platform_code": "A"
+            },
+            "trip": {
+                "direction": null,
+                "headsign": "Spojovací",
+                "id": "9_6901_230904",
+                "is_at_stop": false,
+                "is_canceled": false,
+                "is_wheelchair_accessible": true,
+                "is_air_conditioned": true,
+                "short_name": null
+            }
+        },
+        {
+            "arrival_timestamp": {
+                "predicted": "2023-09-05T15:27:00+02:00",
+                "scheduled": "2023-09-05T15:27:00+02:00"
+            },
+            "delay": {
+                "is_available": false,
+                "minutes": null,
+                "seconds": null
+            },
+            "departure_timestamp": {
+                "predicted": "2023-09-05T15:27:00+02:00",
+                "scheduled": "2023-09-05T15:27:00+02:00",
+                "minutes": "6"
+            },
+            "last_stop": {
+                "id": null,
+                "name": null
+            },
+            "route": {
+                "short_name": "21",
+                "type": 0,
+                "is_night": false,
+                "is_regional": false,
+                "is_substitute_transport": false
+            },
+            "stop": {
+                "id": "U240Z1P",
+                "platform_code": "A"
+            },
+            "trip": {
+                "direction": null,
+                "headsign": "Sídliště Modřany",
+                "id": "21_4515_230904",
+                "is_at_stop": false,
+                "is_canceled": false,
+                "is_wheelchair_accessible": false,
+                "is_air_conditioned": null,
+                "short_name": null
+            }
+        },
+        {
+            "arrival_timestamp": {
+                "predicted": "2023-09-05T15:27:53+02:00",
+                "scheduled": "2023-09-05T15:28:00+02:00"
+            },
+            "delay": {
+                "is_available": true,
+                "minutes": 0,
+                "seconds": -7
+            },
+            "departure_timestamp": {
+                "predicted": "2023-09-05T15:27:53+02:00",
+                "scheduled": "2023-09-05T15:28:00+02:00",
+                "minutes": "7"
+            },
+            "last_stop": {
+                "id": "U236Z1P",
+                "name": "Slánská"
+            },
+            "route": {
+                "short_name": "16",
+                "type": 0,
+                "is_night": false,
+                "is_regional": false,
+                "is_substitute_transport": false
+            },
+            "stop": {
+                "id": "U240Z1P",
+                "platform_code": "A"
+            },
+            "trip": {
+                "direction": null,
+                "headsign": "Ústřední dílny DP",
+                "id": "16_9862_230904",
+                "is_at_stop": false,
+                "is_canceled": false,
+                "is_wheelchair_accessible": false,
+                "is_air_conditioned": false,
+                "short_name": null
+            }
+        },
+        {
+            "arrival_timestamp": {
+                "predicted": "2023-09-05T15:30:00+02:00",
+                "scheduled": "2023-09-05T15:30:00+02:00"
+            },
+            "delay": {
+                "is_available": false,
+                "minutes": null,
+                "seconds": null
+            },
+            "departure_timestamp": {
+                "predicted": "2023-09-05T15:30:00+02:00",
+                "scheduled": "2023-09-05T15:30:00+02:00",
+                "minutes": "9"
+            },
+            "last_stop": {
+                "id": null,
+                "name": null
+            },
+            "route": {
+                "short_name": "9",
+                "type": 0,
+                "is_night": false,
+                "is_regional": false,
+                "is_substitute_transport": false
+            },
+            "stop": {
+                "id": "U240Z1P",
+                "platform_code": "A"
+            },
+            "trip": {
+                "direction": null,
+                "headsign": "Spojovací",
+                "id": "9_14535_230904",
+                "is_at_stop": false,
+                "is_canceled": false,
+                "is_wheelchair_accessible": false,
+                "is_air_conditioned": null,
+                "short_name": null
+            }
+        },
+        {
+            "arrival_timestamp": {
+                "predicted": "2023-09-05T15:31:00+02:00",
+                "scheduled": "2023-09-05T15:31:00+02:00"
+            },
+            "delay": {
+                "is_available": false,
+                "minutes": null,
+                "seconds": null
+            },
+            "departure_timestamp": {
+                "predicted": "2023-09-05T15:31:00+02:00",
+                "scheduled": "2023-09-05T15:31:00+02:00",
+                "minutes": "10"
+            },
+            "last_stop": {
+                "id": null,
+                "name": null
+            },
+            "route": {
+                "short_name": "4",
+                "type": 0,
+                "is_night": false,
+                "is_regional": false,
+                "is_substitute_transport": false
+            },
+            "stop": {
+                "id": "U240Z1P",
+                "platform_code": "A"
+            },
+            "trip": {
+                "direction": null,
+                "headsign": "Kubánské náměstí",
+                "id": "4_3951_230904",
+                "is_at_stop": false,
+                "is_canceled": false,
+                "is_wheelchair_accessible": false,
+                "is_air_conditioned": null,
+                "short_name": null
+            }
+        },
+        {
+            "arrival_timestamp": {
+                "predicted": "2023-09-05T15:32:00+02:00",
+                "scheduled": "2023-09-05T15:32:00+02:00"
+            },
+            "delay": {
+                "is_available": true,
+                "minutes": 0,
+                "seconds": 0
+            },
+            "departure_timestamp": {
+                "predicted": "2023-09-05T15:32:00+02:00",
+                "scheduled": "2023-09-05T15:32:00+02:00",
+                "minutes": "11"
+            },
+            "last_stop": {
+                "id": null,
+                "name": null
+            },
+            "route": {
+                "short_name": "10",
+                "type": 0,
+                "is_night": false,
+                "is_regional": false,
+                "is_substitute_transport": false
+            },
+            "stop": {
+                "id": "U240Z1P",
+                "platform_code": "A"
+            },
+            "trip": {
+                "direction": null,
+                "headsign": "Sídliště Ďáblice",
+                "id": "10_3616_230904",
+                "is_at_stop": false,
+                "is_canceled": false,
+                "is_wheelchair_accessible": false,
+                "is_air_conditioned": false,
+                "short_name": null
+            }
+        },
+        {
+            "arrival_timestamp": {
+                "predicted": "2023-09-05T15:32:00+02:00",
+                "scheduled": "2023-09-05T15:32:00+02:00"
+            },
+            "delay": {
+                "is_available": false,
+                "minutes": null,
+                "seconds": null
+            },
+            "departure_timestamp": {
+                "predicted": "2023-09-05T15:32:00+02:00",
+                "scheduled": "2023-09-05T15:32:00+02:00",
+                "minutes": "11"
+            },
+            "last_stop": {
+                "id": null,
+                "name": null
+            },
+            "route": {
+                "short_name": "20",
+                "type": 0,
+                "is_night": false,
+                "is_regional": false,
+                "is_substitute_transport": false
+            },
+            "stop": {
+                "id": "U240Z1P",
+                "platform_code": "A"
+            },
+            "trip": {
+                "direction": null,
+                "headsign": "Červený Vrch",
+                "id": "20_9007_230904",
+                "is_at_stop": false,
+                "is_canceled": false,
+                "is_wheelchair_accessible": false,
+                "is_air_conditioned": null,
+                "short_name": null
+            }
+        },
+        {
+            "arrival_timestamp": {
+                "predicted": "2023-09-05T15:33:00+02:00",
+                "scheduled": "2023-09-05T15:33:00+02:00"
+            },
+            "delay": {
+                "is_available": true,
+                "minutes": 0,
+                "seconds": 0
+            },
+            "departure_timestamp": {
+                "predicted": "2023-09-05T15:33:00+02:00",
+                "scheduled": "2023-09-05T15:33:00+02:00",
+                "minutes": "12"
+            },
+            "last_stop": {
+                "id": null,
+                "name": null
+            },
+            "route": {
+                "short_name": "15",
+                "type": 0,
+                "is_night": false,
+                "is_regional": false,
+                "is_substitute_transport": false
+            },
+            "stop": {
+                "id": "U240Z1P",
+                "platform_code": "A"
+            },
+            "trip": {
+                "direction": null,
+                "headsign": "Olšanské hřbitovy",
+                "id": "15_6652_230904",
+                "is_at_stop": false,
+                "is_canceled": false,
+                "is_wheelchair_accessible": false,
+                "is_air_conditioned": false,
+                "short_name": null
+            }
+        },
+        {
+            "arrival_timestamp": {
+                "predicted": "2023-09-05T15:34:00+02:00",
+                "scheduled": "2023-09-05T15:34:00+02:00"
+            },
+            "delay": {
+                "is_available": true,
+                "minutes": 0,
+                "seconds": 0
+            },
+            "departure_timestamp": {
+                "predicted": "2023-09-05T15:34:00+02:00",
+                "scheduled": "2023-09-05T15:34:00+02:00",
+                "minutes": "13"
+            },
+            "last_stop": {
+                "id": null,
+                "name": null
+            },
+            "route": {
+                "short_name": "9",
+                "type": 0,
+                "is_night": false,
+                "is_regional": false,
+                "is_substitute_transport": false
+            },
+            "stop": {
+                "id": "U240Z1P",
+                "platform_code": "A"
+            },
+            "trip": {
+                "direction": null,
+                "headsign": "Spojovací",
+                "id": "9_6909_230904",
+                "is_at_stop": false,
+                "is_canceled": false,
+                "is_wheelchair_accessible": false,
+                "is_air_conditioned": false,
+                "short_name": null
+            }
+        },
+        {
+            "arrival_timestamp": {
+                "predicted": "2023-09-05T15:36:00+02:00",
+                "scheduled": "2023-09-05T15:36:00+02:00"
+            },
+            "delay": {
+                "is_available": true,
+                "minutes": 0,
+                "seconds": 0
+            },
+            "departure_timestamp": {
+                "predicted": "2023-09-05T15:36:00+02:00",
+                "scheduled": "2023-09-05T15:36:00+02:00",
+                "minutes": "15"
+            },
+            "last_stop": {
+                "id": null,
+                "name": null
+            },
+            "route": {
+                "short_name": "16",
+                "type": 0,
+                "is_night": false,
+                "is_regional": false,
+                "is_substitute_transport": false
+            },
+            "stop": {
+                "id": "U240Z1P",
+                "platform_code": "A"
+            },
+            "trip": {
+                "direction": null,
+                "headsign": "Ústřední dílny DP",
+                "id": "16_9865_230904",
+                "is_at_stop": false,
+                "is_canceled": false,
+                "is_wheelchair_accessible": true,
+                "is_air_conditioned": false,
+                "short_name": null
+            }
+        },
+        {
+            "arrival_timestamp": {
+                "predicted": "2023-09-05T15:36:00+02:00",
+                "scheduled": "2023-09-05T15:36:00+02:00"
+            },
+            "delay": {
+                "is_available": false,
+                "minutes": null,
+                "seconds": null
+            },
+            "departure_timestamp": {
+                "predicted": "2023-09-05T15:36:00+02:00",
+                "scheduled": "2023-09-05T15:36:00+02:00",
+                "minutes": "15"
+            },
+            "last_stop": {
+                "id": null,
+                "name": null
+            },
+            "route": {
+                "short_name": "21",
+                "type": 0,
+                "is_night": false,
+                "is_regional": false,
+                "is_substitute_transport": false
+            },
+            "stop": {
+                "id": "U240Z1P",
+                "platform_code": "A"
+            },
+            "trip": {
+                "direction": null,
+                "headsign": "Sídliště Modřany",
+                "id": "21_4518_230904",
+                "is_at_stop": false,
+                "is_canceled": false,
+                "is_wheelchair_accessible": false,
+                "is_air_conditioned": null,
+                "short_name": null
+            }
+        },
+        {
+            "arrival_timestamp": {
+                "predicted": "2023-09-05T15:38:00+02:00",
+                "scheduled": "2023-09-05T15:38:00+02:00"
+            },
+            "delay": {
+                "is_available": false,
+                "minutes": null,
+                "seconds": null
+            },
+            "departure_timestamp": {
+                "predicted": "2023-09-05T15:38:00+02:00",
+                "scheduled": "2023-09-05T15:38:00+02:00",
+                "minutes": "17"
+            },
+            "last_stop": {
+                "id": null,
+                "name": null
+            },
+            "route": {
+                "short_name": "4",
+                "type": 0,
+                "is_night": false,
+                "is_regional": false,
+                "is_substitute_transport": false
+            },
+            "stop": {
+                "id": "U240Z1P",
+                "platform_code": "A"
+            },
+            "trip": {
+                "direction": null,
+                "headsign": "Kubánské náměstí",
+                "id": "4_3957_230904",
+                "is_at_stop": false,
+                "is_canceled": false,
+                "is_wheelchair_accessible": false,
+                "is_air_conditioned": null,
+                "short_name": null
+            }
+        },
+        {
+            "arrival_timestamp": {
+                "predicted": "2023-09-05T15:38:00+02:00",
+                "scheduled": "2023-09-05T15:38:00+02:00"
+            },
+            "delay": {
+                "is_available": true,
+                "minutes": 0,
+                "seconds": 0
+            },
+            "departure_timestamp": {
+                "predicted": "2023-09-05T15:38:00+02:00",
+                "scheduled": "2023-09-05T15:38:00+02:00",
+                "minutes": "17"
+            },
+            "last_stop": {
+                "id": null,
+                "name": null
+            },
+            "route": {
+                "short_name": "9",
+                "type": 0,
+                "is_night": false,
+                "is_regional": false,
+                "is_substitute_transport": false
+            },
+            "stop": {
+                "id": "U240Z1P",
+                "platform_code": "A"
+            },
+            "trip": {
+                "direction": null,
+                "headsign": "Spojovací",
+                "id": "9_366_230904",
+                "is_at_stop": false,
+                "is_canceled": false,
+                "is_wheelchair_accessible": true,
+                "is_air_conditioned": true,
+                "short_name": null
+            }
+        },
+        {
+            "arrival_timestamp": {
+                "predicted": "2023-09-05T15:40:00+02:00",
+                "scheduled": "2023-09-05T15:40:00+02:00"
+            },
+            "delay": {
+                "is_available": true,
+                "minutes": 0,
+                "seconds": 0
+            },
+            "departure_timestamp": {
+                "predicted": "2023-09-05T15:40:00+02:00",
+                "scheduled": "2023-09-05T15:40:00+02:00",
+                "minutes": "19"
+            },
+            "last_stop": {
+                "id": null,
+                "name": null
+            },
+            "route": {
+                "short_name": "10",
+                "type": 0,
+                "is_night": false,
+                "is_regional": false,
+                "is_substitute_transport": false
+            },
+            "stop": {
+                "id": "U240Z1P",
+                "platform_code": "A"
+            },
+            "trip": {
+                "direction": null,
+                "headsign": "Sídliště Ďáblice",
+                "id": "10_3623_230904",
+                "is_at_stop": false,
+                "is_canceled": false,
+                "is_wheelchair_accessible": true,
+                "is_air_conditioned": true,
+                "short_name": null
+            }
+        },
+        {
+            "arrival_timestamp": {
+                "predicted": "2023-09-05T15:41:00+02:00",
+                "scheduled": "2023-09-05T15:41:00+02:00"
+            },
+            "delay": {
+                "is_available": true,
+                "minutes": 0,
+                "seconds": 0
+            },
+            "departure_timestamp": {
+                "predicted": "2023-09-05T15:41:00+02:00",
+                "scheduled": "2023-09-05T15:41:00+02:00",
+                "minutes": "20"
+            },
+            "last_stop": {
+                "id": null,
+                "name": null
+            },
+            "route": {
+                "short_name": "15",
+                "type": 0,
+                "is_night": false,
+                "is_regional": false,
+                "is_substitute_transport": false
+            },
+            "stop": {
+                "id": "U240Z1P",
+                "platform_code": "A"
+            },
+            "trip": {
+                "direction": null,
+                "headsign": "Olšanské hřbitovy",
+                "id": "15_6654_230904",
+                "is_at_stop": false,
+                "is_canceled": false,
+                "is_wheelchair_accessible": true,
+                "is_air_conditioned": true,
+                "short_name": null
+            }
+        },
+        {
+            "arrival_timestamp": {
+                "predicted": "2023-09-05T15:42:00+02:00",
+                "scheduled": "2023-09-05T15:42:00+02:00"
+            },
+            "delay": {
+                "is_available": true,
+                "minutes": 0,
+                "seconds": 0
+            },
+            "departure_timestamp": {
+                "predicted": "2023-09-05T15:42:00+02:00",
+                "scheduled": "2023-09-05T15:42:00+02:00",
+                "minutes": "21"
+            },
+            "last_stop": {
+                "id": null,
+                "name": null
+            },
+            "route": {
+                "short_name": "9",
+                "type": 0,
+                "is_night": false,
+                "is_regional": false,
+                "is_substitute_transport": false
+            },
+            "stop": {
+                "id": "U240Z1P",
+                "platform_code": "A"
+            },
+            "trip": {
+                "direction": null,
+                "headsign": "Spojovací",
+                "id": "9_6920_230904",
+                "is_at_stop": false,
+                "is_canceled": false,
+                "is_wheelchair_accessible": true,
+                "is_air_conditioned": true,
+                "short_name": null
+            }
+        }
+    ],
+    "infotexts": []
+}

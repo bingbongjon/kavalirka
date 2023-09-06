@@ -1,0 +1,2214 @@
+{
+    "geometry": {
+        "coordinates": [
+            14.34541,
+            50.06801
+        ],
+        "type": "Point"
+    },
+    "properties": {
+        "last_position": {
+            "bearing": 87,
+            "delay": {
+                "actual": 59,
+                "last_stop_arrival": 37,
+                "last_stop_departure": null
+            },
+            "is_canceled": null,
+            "last_stop": {
+                "arrival_time": "2023-09-02T15:52:00+02:00",
+                "departure_time": "2023-09-02T15:52:00+02:00",
+                "id": "U567Z1P",
+                "sequence": 8
+            },
+            "next_stop": {
+                "arrival_time": "2023-09-02T15:53:00+02:00",
+                "departure_time": "2023-09-02T15:53:00+02:00",
+                "id": "U580Z1P",
+                "sequence": 9
+            },
+            "origin_timestamp": "2023-09-02T15:52:37+02:00",
+            "shape_dist_traveled": "3.67",
+            "speed": null,
+            "state_position": "at_stop",
+            "tracking": true
+        },
+        "trip": {
+            "agency_name": {
+                "real": "DP PRAHA",
+                "scheduled": "DP PRAHA"
+            },
+            "cis": {
+                "line_id": null,
+                "trip_number": null
+            },
+            "gtfs": {
+                "route_id": "L9",
+                "route_short_name": "9",
+                "route_type": 0,
+                "trip_headsign": "Spojovací",
+                "trip_id": "9_14268_230812",
+                "trip_short_name": null
+            },
+            "origin_route_name": "9",
+            "sequence_id": 3,
+            "start_timestamp": "2023-09-02T15:44:00+02:00",
+            "vehicle_registration_number": 9428,
+            "vehicle_type": {
+                "description_cs": "tramvaj",
+                "description_en": "tram",
+                "id": 2
+            },
+            "wheelchair_accessible": true,
+            "air_conditioned": true
+        },
+        "all_positions": {
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.34142,
+                            50.06791
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:19:01+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.32551,
+                            50.06578
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": 52,
+                        "delay": {
+                            "actual": 70,
+                            "last_stop_arrival": 59,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": "2023-09-02T15:48:00+02:00",
+                            "departure_time": "2023-09-02T15:48:00+02:00",
+                            "id": "U395Z1P",
+                            "sequence": 5
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:50:00+02:00",
+                            "departure_time": "2023-09-02T15:50:00+02:00",
+                            "id": "U394Z1P",
+                            "sequence": 6
+                        },
+                        "origin_timestamp": "2023-09-02T15:48:59+02:00",
+                        "shape_dist_traveled": "2.189",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.34039,
+                            50.06786
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:19:36+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.44526,
+                            50.08499
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T14:49:34+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.32646,
+                            50.06623
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": 52,
+                        "delay": {
+                            "actual": 95,
+                            "last_stop_arrival": 59,
+                            "last_stop_departure": 95
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": "2023-09-02T15:48:00+02:00",
+                            "departure_time": "2023-09-02T15:48:00+02:00",
+                            "id": "U395Z1P",
+                            "sequence": 5
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:50:00+02:00",
+                            "departure_time": "2023-09-02T15:50:00+02:00",
+                            "id": "U394Z1P",
+                            "sequence": 6
+                        },
+                        "origin_timestamp": "2023-09-02T15:49:35+02:00",
+                        "shape_dist_traveled": "2.189",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.33653,
+                            50.06773
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:20:11+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.33621,
+                            50.06769
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": 85,
+                        "delay": {
+                            "actual": 25,
+                            "last_stop_arrival": 25,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": "2023-09-02T15:50:00+02:00",
+                            "departure_time": "2023-09-02T15:50:00+02:00",
+                            "id": "U394Z1P",
+                            "sequence": 6
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:51:00+02:00",
+                            "departure_time": "2023-09-02T15:51:00+02:00",
+                            "id": "U865Z1P",
+                            "sequence": 7
+                        },
+                        "origin_timestamp": "2023-09-02T15:50:25+02:00",
+                        "shape_dist_traveled": "2.942",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.33568,
+                            50.06772
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:20:44+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.33652,
+                            50.06767
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": 85,
+                        "delay": {
+                            "actual": 63,
+                            "last_stop_arrival": 25,
+                            "last_stop_departure": 63
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": "2023-09-02T15:50:00+02:00",
+                            "departure_time": "2023-09-02T15:50:00+02:00",
+                            "id": "U394Z1P",
+                            "sequence": 6
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:51:00+02:00",
+                            "departure_time": "2023-09-02T15:51:00+02:00",
+                            "id": "U865Z1P",
+                            "sequence": 7
+                        },
+                        "origin_timestamp": "2023-09-02T15:51:03+02:00",
+                        "shape_dist_traveled": "2.942",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.3267,
+                            50.06641
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:21:32+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.43582,
+                            50.08582
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T14:51:45+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.34064,
+                            50.06785
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": 86,
+                        "delay": {
+                            "actual": 45,
+                            "last_stop_arrival": 45,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": "2023-09-02T15:51:00+02:00",
+                            "departure_time": "2023-09-02T15:51:00+02:00",
+                            "id": "U865Z1P",
+                            "sequence": 7
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:52:00+02:00",
+                            "departure_time": "2023-09-02T15:52:00+02:00",
+                            "id": "U567Z1P",
+                            "sequence": 8
+                        },
+                        "origin_timestamp": "2023-09-02T15:51:45+02:00",
+                        "shape_dist_traveled": "3.296",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.32569,
+                            50.06593
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:22:05+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.34146,
+                            50.06786
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": 86,
+                        "delay": {
+                            "actual": 68,
+                            "last_stop_arrival": 45,
+                            "last_stop_departure": 68
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": "2023-09-02T15:51:00+02:00",
+                            "departure_time": "2023-09-02T15:51:00+02:00",
+                            "id": "U865Z1P",
+                            "sequence": 7
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:52:00+02:00",
+                            "departure_time": "2023-09-02T15:52:00+02:00",
+                            "id": "U567Z1P",
+                            "sequence": 8
+                        },
+                        "origin_timestamp": "2023-09-02T15:52:08+02:00",
+                        "shape_dist_traveled": "3.296",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.43511,
+                            50.08608
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T14:52:33+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.34541,
+                            50.06801
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": 87,
+                        "delay": {
+                            "actual": 59,
+                            "last_stop_arrival": 37,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": "2023-09-02T15:52:00+02:00",
+                            "departure_time": "2023-09-02T15:52:00+02:00",
+                            "id": "U567Z1P",
+                            "sequence": 8
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:53:00+02:00",
+                            "departure_time": "2023-09-02T15:53:00+02:00",
+                            "id": "U580Z1P",
+                            "sequence": 9
+                        },
+                        "origin_timestamp": "2023-09-02T15:52:37+02:00",
+                        "shape_dist_traveled": "3.67",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.3163,
+                            50.06402
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:22:58+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.43082,
+                            50.08541
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T14:53:27+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.31566,
+                            50.06371
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:23:28+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.30904,
+                            50.06452
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:24:17+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.30853,
+                            50.06455
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:24:54+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.42576,
+                            50.08208
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T14:55:31+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.30307,
+                            50.06577
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:25:23+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.3021,
+                            50.0658
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:26:07+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.42528,
+                            50.08167
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T14:56:30+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.42334,
+                            50.08004
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T14:56:58+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.29843,
+                            50.06534
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:26:44+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.4211,
+                            50.07915
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T14:57:57+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.29806,
+                            50.06547
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:28:14+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.41972,
+                            50.07921
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T14:58:49+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.40311,
+                            50.07194
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:07:19+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.41964,
+                            50.08124
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T14:59:20+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.4195,
+                            50.08169
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:00:08+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.41457,
+                            50.08145
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:00:53+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.40603,
+                            50.08123
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:02:56+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.40518,
+                            50.08125
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:03:36+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.40281,
+                            50.07195
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:08:13+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.40409,
+                            50.07851
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:04:43+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.40414,
+                            50.07598
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:05:37+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.39327,
+                            50.07228
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:10:12+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.39243,
+                            50.07224
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:10:45+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.38824,
+                            50.07173
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:11:11+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.37997,
+                            50.07067
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:12:35+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.37186,
+                            50.07007
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:14:01+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.37109,
+                            50.07012
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:14:40+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.29898,
+                            50.06515
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": 80,
+                        "delay": {
+                            "actual": 12,
+                            "last_stop_arrival": 12,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:45:00+02:00",
+                            "departure_time": "2023-09-02T15:45:00+02:00",
+                            "id": "U47Z1P",
+                            "sequence": 2
+                        },
+                        "origin_timestamp": "2023-09-02T15:44:12+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.2989,
+                            50.06514
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": 80,
+                        "delay": {
+                            "actual": 17,
+                            "last_stop_arrival": 12,
+                            "last_stop_departure": 17
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:45:00+02:00",
+                            "departure_time": "2023-09-02T15:45:00+02:00",
+                            "id": "U47Z1P",
+                            "sequence": 2
+                        },
+                        "origin_timestamp": "2023-09-02T15:44:17+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.30281,
+                            50.06574
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": 92,
+                        "delay": {
+                            "actual": -4,
+                            "last_stop_arrival": -4,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": "2023-09-02T15:45:00+02:00",
+                            "departure_time": "2023-09-02T15:45:00+02:00",
+                            "id": "U47Z1P",
+                            "sequence": 2
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:46:00+02:00",
+                            "departure_time": "2023-09-02T15:46:00+02:00",
+                            "id": "U236Z1P",
+                            "sequence": 3
+                        },
+                        "origin_timestamp": "2023-09-02T15:44:56+02:00",
+                        "shape_dist_traveled": "0.353",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.3629,
+                            50.06961
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:15:44+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.46537,
+                            50.08353
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T14:45:01+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.36201,
+                            50.0696
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:16:19+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.30362,
+                            50.06571
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": 92,
+                        "delay": {
+                            "actual": 30,
+                            "last_stop_arrival": -4,
+                            "last_stop_departure": 30
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": "2023-09-02T15:45:00+02:00",
+                            "departure_time": "2023-09-02T15:45:00+02:00",
+                            "id": "U47Z1P",
+                            "sequence": 2
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:46:00+02:00",
+                            "departure_time": "2023-09-02T15:46:00+02:00",
+                            "id": "U236Z1P",
+                            "sequence": 3
+                        },
+                        "origin_timestamp": "2023-09-02T15:45:30+02:00",
+                        "shape_dist_traveled": "0.353",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.46454,
+                            50.08342
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T14:45:34+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.35476,
+                            50.06868
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:17:05+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.30856,
+                            50.0645
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": 94,
+                        "delay": {
+                            "actual": 4,
+                            "last_stop_arrival": 4,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": "2023-09-02T15:46:00+02:00",
+                            "departure_time": "2023-09-02T15:46:00+02:00",
+                            "id": "U236Z1P",
+                            "sequence": 3
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:47:00+02:00",
+                            "departure_time": "2023-09-02T15:47:00+02:00",
+                            "id": "U113Z1P",
+                            "sequence": 4
+                        },
+                        "origin_timestamp": "2023-09-02T15:46:04+02:00",
+                        "shape_dist_traveled": "0.811",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.45831,
+                            50.08257
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T14:46:15+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.3094,
+                            50.06447
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": 94,
+                        "delay": {
+                            "actual": 43,
+                            "last_stop_arrival": 4,
+                            "last_stop_departure": 43
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": "2023-09-02T15:46:00+02:00",
+                            "departure_time": "2023-09-02T15:46:00+02:00",
+                            "id": "U236Z1P",
+                            "sequence": 3
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:47:00+02:00",
+                            "departure_time": "2023-09-02T15:47:00+02:00",
+                            "id": "U113Z1P",
+                            "sequence": 4
+                        },
+                        "origin_timestamp": "2023-09-02T15:46:43+02:00",
+                        "shape_dist_traveled": "0.811",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.34804,
+                            50.06813
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:18:07+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.31641,
+                            50.06402
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": 51,
+                        "delay": {
+                            "actual": 69,
+                            "last_stop_arrival": 32,
+                            "last_stop_departure": 69
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": "2023-09-02T15:47:00+02:00",
+                            "departure_time": "2023-09-02T15:47:00+02:00",
+                            "id": "U113Z1P",
+                            "sequence": 4
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:48:00+02:00",
+                            "departure_time": "2023-09-02T15:48:00+02:00",
+                            "id": "U395Z1P",
+                            "sequence": 5
+                        },
+                        "origin_timestamp": "2023-09-02T15:48:09+02:00",
+                        "shape_dist_traveled": "1.406",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.34678,
+                            50.0681
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T15:18:28+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.31576,
+                            50.06371
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": 51,
+                        "delay": {
+                            "actual": 32,
+                            "last_stop_arrival": 32,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": "2023-09-02T15:47:00+02:00",
+                            "departure_time": "2023-09-02T15:47:00+02:00",
+                            "id": "U113Z1P",
+                            "sequence": 4
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:48:00+02:00",
+                            "departure_time": "2023-09-02T15:48:00+02:00",
+                            "id": "U395Z1P",
+                            "sequence": 5
+                        },
+                        "origin_timestamp": "2023-09-02T15:47:32+02:00",
+                        "shape_dist_traveled": "1.406",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.45747,
+                            50.08249
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T14:46:58+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            14.45416,
+                            50.08346
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "bearing": null,
+                        "delay": {
+                            "actual": 0,
+                            "last_stop_arrival": null,
+                            "last_stop_departure": null
+                        },
+                        "is_canceled": null,
+                        "last_stop": {
+                            "arrival_time": null,
+                            "departure_time": null,
+                            "id": null,
+                            "sequence": null
+                        },
+                        "next_stop": {
+                            "arrival_time": "2023-09-02T15:44:00+02:00",
+                            "departure_time": "2023-09-02T15:44:00+02:00",
+                            "id": "U612Z3P",
+                            "sequence": 1
+                        },
+                        "origin_timestamp": "2023-09-02T14:47:38+02:00",
+                        "shape_dist_traveled": "0",
+                        "speed": null
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        }
+    },
+    "type": "Feature"
+}
